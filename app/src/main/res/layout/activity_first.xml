@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#61AE5E"
+
+    android:gravity="center"
+    tools:context="com.example.mansopresk21.vedio.First">
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/filmreel"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:background="#61AE5E"
+        android:id="@+id/cam"
+        android:textColor="#fff"
+        android:drawableRight="@drawable/photo"
+        android:drawablePadding="10dp"
+        android:textAllCaps="false"></Button>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:id="@+id/video"
+        android:background="#61AE5E"
+        android:textColor="#fff"
+        android:drawableRight="@drawable/video"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
